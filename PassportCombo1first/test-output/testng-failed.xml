@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="environment" value="A;T;P"/>
+  <parameter name="testcaseName" value="FirstTest;SecondTests;ThirdTest"/>
+  <parameter name="browser" value="FIREFOX"/>
+  <parameter name="iteration" value="1,2;1,5;5,10"/>
+  <parameter name="version" value=""/>
+  <parameter name="platform" value="VISTA"/>
+  <parameter name="url" value="http://www.google.com;http://www.yahoo.com;http://www.seleniumhq.org"/>
+  <parameter name="target" value="http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub"/>
+  <listeners>
+    <listener class-name="com.iso.ppw.test.listener.CustomListener"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="methods">
+    <parameter name="environment" value="A;T;P"/>
+    <parameter name="testcaseName" value="FirstTest;SecondTests;ThirdTest"/>
+    <parameter name="browser" value="FIREFOX"/>
+    <parameter name="iteration" value="1,2;1,5;5,10"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="VISTA"/>
+    <parameter name="url" value="http://www.google.com;http://www.yahoo.com;http://www.seleniumhq.org"/>
+    <parameter name="target" value="http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub"/>
+    <classes>
+      <class name="com.iso.ppw.test.ui.testNg.PassportTestNg">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="SecondTest"/>
+          <include name="ThirdTest"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="afterTest"/>
+          <include name="setup"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.iso.ppw.test.ui.testNg.PassportTestNg -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

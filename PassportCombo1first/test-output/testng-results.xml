@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="126489" started-at="2016-04-21T11:39:33Z" finished-at="2016-04-21T11:41:40Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="126489" started-at="2016-04-21T11:39:33Z" finished-at="2016-04-21T11:41:40Z">
+      <class name="com.iso.ppw.test.ui.testNg.PassportTestNg">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="setup" is-config="true" duration-ms="61" started-at="2016-04-21T17:24:33Z" finished-at="2016-04-21T17:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VISTA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.53]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://www.google.com;http://www.yahoo.com;http://www.seleniumhq.org]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FirstTest;SecondTests;ThirdTest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A;T;P]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1,2;1,5;5,10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2016-04-21T17:24:33Z" finished-at="2016-04-21T17:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2350" started-at="2016-04-21T17:24:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2016-04-21T17:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3879" started-at="2016-04-21T17:24:36Z" finished-at="2016-04-21T17:24:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.SecondTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3879" started-at="2016-04-21T17:24:36Z" finished-at="2016-04-21T17:24:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.FirstTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3879" started-at="2016-04-21T17:24:36Z" finished-at="2016-04-21T17:24:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.ThirdTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="FirstTest" duration-ms="64095" started-at="2016-04-21T17:24:39Z" description="FirstTest" finished-at="2016-04-21T17:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="SecondTest" duration-ms="112066" started-at="2016-04-21T17:24:39Z" description="SecondTests" finished-at="2016-04-21T17:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="ThirdTest" duration-ms="68681" started-at="2016-04-21T17:24:39Z" description="ThirdTest" finished-at="2016-04-21T17:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="54" started-at="2016-04-21T17:25:44Z" finished-at="2016-04-21T17:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.FirstTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-04-21T17:25:48Z" finished-at="2016-04-21T17:25:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.ThirdTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-04-21T17:26:32Z" finished-at="2016-04-21T17:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.iso.ppw.test.ui.testNg.PassportTestNg.SecondTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2016-04-21T17:26:32Z" finished-at="2016-04-21T17:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.iso.ppw.test.ui.testNg.PassportTestNg@612fc6eb]" name="afterTest" is-config="true" duration-ms="8101" started-at="2016-04-21T17:26:32Z" finished-at="2016-04-21T17:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.iso.ppw.test.ui.testNg.PassportTestNg -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

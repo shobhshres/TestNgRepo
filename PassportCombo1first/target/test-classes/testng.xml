@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true" thread-count="3">
+<tests>
+
+<!--   <test name="Test">
+  <parameters>
+<parameter name="platform" value="VISTA" />
+<parameter name="browser"  value="firefox" />
+<parameter name="version" value="" />
+<parameter name="url" value="http://www.seleniumhq.org"/>
+</parameters>
+    <classes>
+      <class name="com.testng.main.NewTest"/>
+    </classes>
+  </test> --> 
+  
+   <listeners>
+    <listener class-name="com.iso.ppw.test.listener.CustomListener" />
+  </listeners>
+  
+  
+  <test name="Test1">
+<parameters>
+<parameter name="platform" value="VISTA" />
+<parameter name="browser"  value="FIREFOX" />
+<parameter name="version" value="2.53" />
+<parameter name="url" value="http://www.google.com;http://www.yahoo.com;http://www.seleniumhq.org"/>
+<parameter name ="testcaseName" value="FirstTest;SecondTests;ThirdTest"/>
+<parameter name = "environment" value ="A;T;P"/>
+<parameter name = "target" value ="http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub;http://192.168.123.4:5555/wd/hub"/>
+<parameter name = "iteration" value = "1,2;1,5;5,10"/>
+
+</parameters>
+    <classes>
+      <class name="com.iso.ppw.test.ui.testNg.PassportTestNg"/>
+    </classes>
+  </test> 
+   <!--  <test name="Test2">
+  <parameters>
+<parameter name="platform" value="VISTA" />
+<parameter name="browser"  value="firefox" />
+<parameter name="version" value="" />
+<parameter name="url" value="http://localhost:4444/grid/console"/>
+</parameters>
+    <classes>
+      <class name="com.testng.main.SeGridTest"/>
+    </classes>
+  </test>  -->
+</tests>
+</suite>
+ <!-- Suite -->
