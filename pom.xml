@@ -123,7 +123,7 @@
 				<configuration>
 					<systemPropertyVariables>
 						<!-- T - Test ; A -Acceptance; P= Production -->
-						<!--<TargetEnvironment>${TargetEnvironment}</TargetEnvironment> -->
+						<TargetEnvironment>${TargetEnvironment}</TargetEnvironment> 
 						<!-- 1 - Firefox; 2 - Internet Explorer; 3 - Chrome;  -->
 						<selenium.browser>${selenium.browser}</selenium.browser>
 						<RemoteUrl>${RemoteUrl}</RemoteUrl>
